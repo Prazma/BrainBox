@@ -1,1 +1,37 @@
 /*BrainBox CSS framework by Tomoyoshi Yamamoto. Under MIT License.*/
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  background: #0365d6;
+  color: #fff;
+  min-height: 100vh;
+}
+.proport {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 400px;
+  text-align: center;
+}
+.leftAlign {
+  text-align: left;
+}
+.whitePlace {
+  background: #f9fafc;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.spkBox {
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#fff,#f3f8ff);
+  border-radius: 10px;
+  color: #324a64;
+  border: 1px solid #e8efff;
+  border-bottom-color: #d8e2f9;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px -1px rgba(0,32,128,.1);
+}
