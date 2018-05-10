@@ -3,13 +3,16 @@
   <head>
     <title>BrainBox</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/data/bb.dict.js"></script>
   </head>
   <body>
-    <form action="javascript:fetch()">
-      <input placeholder="Ask Anything"><br>
+    <form action="javascript:bb.fetch(userAsk.value)">
+      <input id="userAsk" placeholder="Ask Anything">
       <input type="submit" value="Ask">
+      <p><strong>Answer: </strong><span id="aiAnswer"></span></p>
     </form>
-    <script src="js/app.js"></script>
+    <script src="js/bb.init.js"></script>
+    <script src="js/bb.local.js"></script>
   </body>
 </html>
